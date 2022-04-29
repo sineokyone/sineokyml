@@ -1,0 +1,56 @@
+@media only screen and (max-width: 960px){
+    
+    
+    .header{
+        height: 200px;
+    }
+
+    .search{
+        height: 70px; 
+    }
+
+    
+    .formInput {
+    height: 62px;
+    }
+    .formButton{
+	height: 70px;
+    padding-right: 0;
+	
+    }
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 700px){
+    
+    
+    .header{
+        height: 200px;
+    }
+
+    .search{
+        height: 90px; 
+    }
+
+    
+    .formInput {
+    height: 82px;
+    }
+    .formButton{
+	height: 90px;
+    padding-right: 0;
+	
+    }
+    .searchLogo{
+    height: 90px;
+    }
+
+
+
+
+}
