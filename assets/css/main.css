@@ -1,0 +1,63 @@
+body{
+	background-image:url(https://www.sunhome.ru/i/wallpapers/73/krasnoe-selo.orig.jpg);
+}
+
+.body{
+    margin: 0 auto;
+    max-width: 1200px;
+    /* height: 1000px; */
+    width: auto;
+    background: gray;
+}
+
+.container{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1000px;
+	background:rgba(0, 0, 0, 0.185);
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 5px;
+    z-index: 1000;
+}
+
+
+
+
+
+
+/* logo mini */
+.contentLogoImg {
+    width: 1134px;
+    position: absolute;
+    margin: 0 auto;
+    top: 210px;
+    left: 0;
+    right: 0;
+}
+.logo-min{
+    width: 60px;
+    height: 100%;
+    background-image: url("../img/mini_logo.png");
+    background-size: cover;
+}
+
+/* big logo */
+.contentLogoText {
+    width: 1450px;
+    height: 60px;
+    position: absolute;
+    margin: 0 auto;
+    top: 210px;
+    left: 0;
+    right: 0;
+}
+
+.logo-text{
+    width: 220px;
+    height: 100%;
+    left: 0;
+    background-image: url("../img/big_logo.png");
+    background-size: cover;
+}
