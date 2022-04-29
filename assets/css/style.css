@@ -1,19 +1,19 @@
 body{
 	background-image:url(https://www.sunhome.ru/i/wallpapers/73/krasnoe-selo.orig.jpg);
-	padding: 20px;
-	margin: 0 auto;
+	padding: 5px;
 }
 
 
-.contentLogo{
+/* .contentLogo{
 	width: 100px;
 	height: 100px;
 	background: red;
-}
+} */
 
 .container{
 	margin: 0 auto;
-	min-width: 134px;
+	width: 100%;
+	height: 100vh;
 	max-width: 1200px;
 	background:rgba(0, 0, 0, 0.185);
 
@@ -21,9 +21,8 @@ body{
 
 .header{
 	
-	margin: 0 auto;
-	margin-top: 20px;
-	height: 100px;
+	margin: 0 auto 150px auto;
+	height: 50px;
 	width: 1000;
 	background: yellow;
 	text-align: center;
@@ -36,45 +35,43 @@ body{
 }
 
 .searchContent{
-	min-width: 134px;
+
 	margin: 0 auto;
-	margin-top: 134px;
 	height: 100%;
 	text-align: center;
 
 }
 
 .search{
-	min-width: 134px;
+	
 	width: auto;
 	height: 50px;
 	background: rgb(255, 196, 0);
 	border-radius: 13px 13px 13px 13px;
 	
 }
-
-.formInput {
-	float: left;
-	display: inline-block;
-    width: 91.5%;
-    height: 42px;
-	margin: 4px 0 4px 4px;
-	border-radius: 12px 12px 12px 12px;
-	font-size: 20px;
-	padding-left: 20px;
-	border: 0px;
-	padding: 0;
-}
-.formButton{
-	display: inline-block;
-	background-color: rgba(240, 248, 255, 0);
-	width: 7%;
-	float: right;
-	height: 50px;
-	text-align: left;
-	border-radius: 0px 20px 20px 0px;
-	font-size: 17px;
-	border: 0px;
-	margin-left: 0;
-	padding: 0;
-}
+		.formInput {
+			float: left;
+			display: inline-block;
+			width: 91.5%;
+			height: 42px;
+			margin: 4px 0 4px 4px;
+			border-radius: 12px 12px 12px 12px;
+			font-size: 20px;
+			padding-left: 20px;
+			border: 0px;
+			padding: 0;
+		}
+		.formButton{
+			display: inline-block;
+			background-color: rgba(240, 248, 255, 0);
+			width: 7%;
+			float: right;
+			height: 50px;
+			text-align: left;
+			border-radius: 0px 20px 20px 0px;
+			font-size: 17px;
+			border: 0px;
+			margin-left: 0;
+			padding: 0;
+		}
