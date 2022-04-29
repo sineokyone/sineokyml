@@ -2,6 +2,9 @@
     .contentLogoText{
         display: none;
     }
+    .logo-text{
+        display: none;
+    }
     .contentLogoImg {
         height: 60px;
     }
@@ -11,14 +14,20 @@
     .contentLogoImg{
         display: none;
     }
+    .logo-min{
+        display: none;
+    }
 }
 
-@media only screen and (max-width: 960px){
-    
+@media only screen and (max-width: 1000px){
+    .searchContent{
+        padding:0 10px 0 10px;
+    }
     
     .header{
         height: 200px;
     }
+
 
     .search{
         height: 60px; 

@@ -1,13 +1,6 @@
 body{
 	background-image:url(https://oir.mobi/uploads/posts/2021-06/1623543771_1-oir_mobi-p-krasivie-vidi-gor-priroda-krasivo-foto-1.jpg);
-}
-
-.body{
-    margin: 0 auto;
-    max-width: 1200px;
-    /* height: 1000px; */
-    width: auto;
-    background: gray;
+    padding: 10px 10px 10px 10px;
 }
 
 .container{
@@ -17,7 +10,6 @@ body{
     position: absolute;
     left: 0;
     right: 0;
-    padding: 5px;
     z-index: 1000;
 }
 
