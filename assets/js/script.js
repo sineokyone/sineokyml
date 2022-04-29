@@ -8,7 +8,7 @@ document.querySelector("button").onclick = app;
 function ape(){
 	let inq=document.querySelector("input").value
 	document.location.href = ('https://yandex.ru/search/?text='+inq)
-	document.getElementById('val1').value = '';
+	document.getElementById('valueFromForm').value = '';
 }
 
 	
