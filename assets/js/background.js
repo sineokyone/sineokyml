@@ -4,21 +4,18 @@ function changeBG() {
         urlBg()
     }else{
     document.body.style.background = selectedBGColor;
+    localStorage.setItem("tableColor", selectedBGColor);
   }
 }
 
 function urlBg(){
   let p = prompt('Введите url картинки')
-  if(p==null){
-    alert("Отменил? -Больше не обращайся..")
-    }else{ sp()
-        function sp() {
-        if(p==""){ //  -- || - ИЛИ 
-        alert( "Неее братух, мне тут пустышки твои не нужны\nиди-ка погуляй" );
-        }else{document.body.style.background = "url("+p+")";}
+  let d = ("url("+p+")")
+  if(p==""){ //  -- || - ИЛИ 
+  alert( "Неее братух, мне тут пустышки твои не нужны\nиди-ка погуляй" );
+  }else{document.body.style.background = d;}
+  localStorage.setItem("tableColor", d);
         
-    }
-}
 }
 
 

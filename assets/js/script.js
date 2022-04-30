@@ -1,3 +1,4 @@
+
 console.log("Закрой эту консоль быстро!!!!"+"\n"+"И вапще не лезь сюда больше понел?!?!?!")
 
 document.querySelector("button").onclick = app;
