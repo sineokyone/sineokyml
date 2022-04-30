@@ -46,4 +46,14 @@ function searchSystemOne(){
 }
 function searchMemory(){
 	localStorage.setItem("searchInfo", searchSystem);
+	function memoryAlert(){
+		let sel = document.getElementById("searchChange");
+		let nameSearch = sel.options[sel.selectedIndex].text;
+		if(nameSearch=="По умолчанию"){
+			alert('Для начала выберите поисковую систему!')
+		}else{
+		alert('Теперь '+nameSearch+' поисковик по умолчанию!')}
+	}
+	memoryAlert()
+
 }
