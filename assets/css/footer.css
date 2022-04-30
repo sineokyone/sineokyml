@@ -29,17 +29,6 @@
     background: rgba(199, 199, 199, 0.486);
 }
 
-@media only screen and (max-width: 1000px){
-
-    .social{
-        margin: 0 auto;
-        display: block;
-        left: 0;
-        right: 0;
-        margin-top: 10px;
-        width: 100%;
-    }
-}
 
 
 .soc{
@@ -53,4 +42,30 @@
     height: 65px;
     border: 0;
     margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.479);
+    transition: background 0.2s linear;
+    border-radius: 20px 20px 20px 20px;
+}
+.altSearch:hover{
+    background: rgba(58, 14, 255, 0.363);
+}
+
+
+@media only screen and (max-width: 1000px){
+
+    .social{
+        margin: 0 auto;
+        display: block;
+        left: 0;
+        right: 0;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .altSearch{
+       width: 60%;
+       margin-left: 20%;
+       margin-right: 20%;
+    }
 }
