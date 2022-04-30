@@ -2,7 +2,7 @@ function altSearch(){
 	alert( "Салат аливейкум!!" );
 
 	const p= prompt('Что над найти?', '');
-	const pr = ('../index.html');
+	const pr = ('index.html');
 	const ur = ('https://yandex.ru/search/?text=' + p);
 		
 		function poisk(){

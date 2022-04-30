@@ -26,7 +26,7 @@
     transition: background 0.2s linear;
 }
 .let:hover{
-    background: red;
+    background: rgba(199, 199, 199, 0.486);
 }
 
 @media only screen and (max-width: 1000px){
@@ -46,4 +46,11 @@
     width: 100px;
     height: 100px;
     background: red;
+}
+
+.altSearch{
+    width: 40%;
+    height: 65px;
+    border: 0;
+    margin-top: 10px;
 }
