@@ -9,14 +9,13 @@ function ape(){
 	let inq=document.querySelector("input").value
 	document.location.href = (searchSystem+inq)
 	document.getElementById('valueFromForm').value = '';
-	function clear(){
-		let select= document.getElementById('searchChange')
-		select.selectedIndex = 0
-		}
-	clear()
+	clearSelectSearchSystem()
 }
 
-	
+function clearSelectSearchSystem(){
+	let select= document.getElementById('searchChange')
+	select.selectedIndex = 0
+}	
 	
 
 
