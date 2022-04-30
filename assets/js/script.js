@@ -3,13 +3,17 @@ console.log("Закрой эту консоль быстро!!!!"+"\n"+"И ва�
 
 document.querySelector("button").onclick = app;
 
-
-
+let searchSystem
 
 function ape(){
 	let inq=document.querySelector("input").value
-	document.location.href = ('https://yandex.ru/search/?text='+inq)
+	document.location.href = (searchSystem+inq)
 	document.getElementById('valueFromForm').value = '';
+	function clear(){
+		let select= document.getElementById('searchChange')
+		select.selectedIndex = 0
+		}
+	clear()
 }
 
 	
@@ -21,7 +25,7 @@ function app(){
 	
 	let inp = document.querySelector("input").value
 	
-	let ur = ('https://yandex.ru/search/?text='+ inp)
+	let ur = (searchSystem + inp)
 	
 	if((inp =="")||(inp==" ")){
 		alert( "Неее братух, мне тут пустышки твои не нужны\nиди-ка погуляй" );
@@ -29,4 +33,18 @@ function app(){
 	
 		ape()
 	}	
+}
+
+
+
+// searchSystems
+
+
+// функция выбора поисковой системы
+function searchSystemOne(){
+    let selectedSearch = document.getElementById("searchChange").value
+    searchSystem = selectedSearch;
+}
+function searchMemory(){
+	localStorage.setItem("searchInfo", searchSystem);
 }

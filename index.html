@@ -29,7 +29,7 @@
 	<!-- body container -->
     <!-- <div class="body"> -->
         <!-- контейнер -->
-        <a href="pages/page_one.html" style="color: antiquewhite; position: sticky; z-index: 100000;" >Макс тебе сюда</a>
+        <!-- <a href="pages/page_one.html" style="color: antiquewhite; position: sticky; z-index: 100000;" >Макс тебе сюда</a> -->
         <div class="contentLogoText">
                 <div class="logo-text">
                 </div>
@@ -41,14 +41,14 @@
         <div class="container">
             <!-- контент -->
             <div class="header">
-                <b style="color:rgb(255, 0, 0);">ПОКА ЧТО ТОЛЬКО ЧЕРЕЗ ЯНДЕКС(</b>
+                <b style="color:rgb(255, 0, 0);visibility: hidden;">Yandrex</b>
                 <div class="big-logo">
                 </div>
             </div>
             <div class="searchContent">
                 <div class="search">
                     <form class="searchForm" action="" method="get" ref="yandex.ru" onsubmit="return false">
-                    <input id="valueFromForm" class="formInput" placeholder="Искать в Яндрексе" type="search">
+                    <input id="valueFromForm" class="formInput" placeholder="Найди что так давно искал.." type="search">
                     <button type="submit" class="formButton">Искать</button>
                     </form>
                 </div>
@@ -73,16 +73,25 @@
                 <div class="settingBodyBig">
                     
                 </div><div class="settingBodyMin">
-                    <b style="color: antiquewhite;">Выбор цвета фона</b>
+                    <b style="color: antiquewhite;">Оформление</b>
                     <select class="backgroundChange" id="bgchoice" onchange="changeBG()">
-                        <option></option>
-                        <option value="red">Красный</option>
-                        <option value="ivory">Белый</option>
-                        <option value="pink">Розовый</option>
+                        <option>Выбрать фон</option>
+                        <option value="rgb(229 229 229)">Светлая тема</option>
+                        <option value="#0f0e0e">Темная тема</option>
+                        <option value="#ff98aa">Девичья тема</option>
                         <option value="1" onclick="urlBack();">Url</option>
                     </select>
                 </div><div class="settingBodyMin">
-
+                    <b style="color: antiquewhite;">Поисковая система</b>
+                    <select class="searchChange" id="searchChange" onchange="searchSystemOne()">
+                        <option>По умолчанию</option>
+                        <option value="https://yandex.ru/search/?text=">Яндекс</option>
+                        <option value='https://www.google.ru/search?q='>Google</option>
+                        <option value='https://duckduckgo.com/?q='>DuckDuckGo</option>
+                        <option value='https://search.yahoo.com/search?p='>Yahoo</option>
+                        <option value='https://www.bing.com/search?q='>Bing</option>
+                    </select>
+                    <button type="submit" class="searchMemory" onclick="searchMemory()">Сделать по умолчанию</button>
                 </div>
             </div>
         </div>

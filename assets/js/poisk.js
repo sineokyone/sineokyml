@@ -3,7 +3,7 @@ function altSearch(){
 
 	const p= prompt('Что над найти?', '');
 	const pr = ('index.html');
-	const ur = ('https://yandex.ru/search/?text=' + p);
+	const ur = (searchSystem + p);
 		
 		function poisk(){
 		document.location.href = ur;

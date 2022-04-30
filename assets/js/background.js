@@ -4,7 +4,7 @@ function changeBG() {
         urlBg()
     }else{
     document.body.style.background = selectedBGColor;
-    localStorage.setItem("tableColor", selectedBGColor);
+    localStorage.setItem("background", selectedBGColor);
   }
 }
 
@@ -14,7 +14,7 @@ function urlBg(){
   if(p==""){ //  -- || - ИЛИ 
   alert( "Неее братух, мне тут пустышки твои не нужны\nиди-ка погуляй" );
   }else{document.body.style.background = d;}
-  localStorage.setItem("tableColor", d);
+  localStorage.setItem("background", d);
         
 }
 
