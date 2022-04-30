@@ -33,7 +33,7 @@
     text-align: center;
 }
 @media only screen and (max-width: 1000px){
-   . settings {
+   .settings {
 background: rgba(0, 0, 0, 0);
 }
 
