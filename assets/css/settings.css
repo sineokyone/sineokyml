@@ -33,7 +33,12 @@
     text-align: center;
 }
 @media only screen and (max-width: 1000px){
-    .settingBodyBig{
+   . settings {
+background: rgba(0, 0, 0, 0);
+}
+
+
+ .settingBodyBig{
       width: 95%;
       margin-top: 10px;
       margin-bottom: 10px;
