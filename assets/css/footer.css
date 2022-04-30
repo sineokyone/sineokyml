@@ -23,6 +23,7 @@
     font-size: 15px;
     color: aqua;
     justify-content: center;
+    transition: background 0.2s linear;
 }
 .let:hover{
     background: red;
