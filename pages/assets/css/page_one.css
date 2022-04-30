@@ -1,21 +1,27 @@
-body{
-	background-image:url(https://oir.mobi/uploads/posts/2021-06/1623543771_1-oir_mobi-p-krasivie-vidi-gor-priroda-krasivo-foto-1.jpg);
-    padding: 10px 10px 10px 10px;
+body { 
+background: url("https://tgchan.org/kusaba/quest/src/145633638739.jpg") no-repeat fixed; 
+background-size: cover; 
 }
-
-
-
 .container{
 	margin: 0 auto;
 	width: 100%;
-	max-width: 1000px;
-    height: 100vh;
+    height: 200vh;
     position: absolute;
-    background: rgba(78, 78, 78, 0.479);
+    font-size: 35px;
+    color: white;
+    text-shadow: 6px 2px 15px rgba(119, 122, 124, 1);
     left: 0;
     right: 0;
     z-index: 1000;
     justify-content: center;
     text-align: center;
 }
-
+.mainPage{
+width:100%;
+text-aligh:center;
+top:300px;
+left:0;
+right:0;
+margin:0 auto;
+float:none;
+}
