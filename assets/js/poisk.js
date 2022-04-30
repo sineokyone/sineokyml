@@ -7,6 +7,7 @@ function altSearch(){
 		
 		function poisk(){
 		document.location.href = ur;
+		clear()
 		}
 
 
