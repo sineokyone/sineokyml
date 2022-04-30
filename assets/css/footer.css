@@ -6,6 +6,7 @@
     display: inline-block;
     float: right;
     margin-top: 10px;
+    justify-content: center;
 }
 
 .let {
@@ -21,9 +22,10 @@
     vertical-align: middle;
     font-size: 15px;
     color: aqua;
-
-
-
+    justify-content: center;
+}
+.let:hover{
+    background: red;
 }
 
 @media only screen and (max-width: 1000px){
@@ -36,3 +38,11 @@
         margin-top: 10px;
         width: 100%;
     }
+}
+
+
+.soc{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
