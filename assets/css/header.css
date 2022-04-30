@@ -1,13 +1,34 @@
 .header{
 	
 	margin: 0 auto 5px auto;
-	height: 325px;
+	height: 310px;
     width: 100%;
-	text-align: center;
+    justify-content: center;
+    text-align: center;
 }
+.big-logo{
+    width: 220px;
+    height: 60px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    background-image: url("../img/big_logo.png");
+    background-size: cover;
+    margin-top: 100px;
+    visibility: hidden;
+}
+
+
+
+
 @media only screen and (max-width: 1000px){
     
     .header{
     height: 170px;
     }
+    .big-logo{
+        visibility: visible;
+    }
+
+
 }
