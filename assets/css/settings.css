@@ -17,7 +17,7 @@
     width: 48%;
     height: 87%;
     margin:20px 20px 0 20px;
-    background: rgba(218, 218, 218, 0.774);
+    background: rgb(103 103 103 / 15%);
     display: inline-block;
     border-radius: 20px 20px 20px 20px;
   }
@@ -26,9 +26,11 @@
     width: 20%;
     height: 87%;
     margin:20px 20px 20px 20px;
-    background: rgba(218, 218, 218, 0.774);
+    background: rgb(103 103 103 / 15%);
     display: inline-block;
     border-radius: 20px 20px 20px 20px;
+    justify-content: center;
+    text-align: center;
 }
 @media only screen and (max-width: 1000px){
     .settingBodyBig{
@@ -45,5 +47,16 @@
         margin-left: 2.5%;
         margin-right: 2.5%;
         float: none;
+        justify-content: center;
+        text-align: center;
       }
+}
+
+
+
+.backgroundChange{
+    width: 95%;
+    margin-top: 10px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 }

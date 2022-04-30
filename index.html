@@ -24,7 +24,7 @@
         <meta name="theme-color" content="#ffffff">
         
 	</head>
-	<body>
+	<body id="body">
 	<!-- body container -->
     <!-- <div class="body"> -->
         <!-- контейнер -->
@@ -70,9 +70,16 @@
             </div>
             <div class="settings">
                 <div class="settingBodyBig">
-
+                    
                 </div><div class="settingBodyMin">
-
+                    <b style="color: antiquewhite;">Выбор цвета фона</b>
+                    <select class="backgroundChange" id="bgchoice" onchange="changeBG()">
+                        <option></option>
+                        <option value="red">Красный</option>
+                        <option value="ivory">Белый</option>
+                        <option value="pink">Розовый</option>
+                        <option value="1" onclick="urlBack();">Url</option>
+                    </select>
                 </div><div class="settingBodyMin">
 
                 </div>
@@ -85,6 +92,7 @@
     <!-- javascript -->
     <script type="text/javascript" src="assets/js/script.js"></script>
     <script type="text/javascript" src="assets/js/poisk.js"></script>
+    <script type="text/javascript" src="assets/js/background.js"></script>
 	<script
 		  src="https://code.jquery.com/jquery-3.6.0.js"
 		  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
