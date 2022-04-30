@@ -20,21 +20,11 @@
     border-radius: 35px 35px 35px 35px;
     text-align: center;
     vertical-align: middle;
-    font-size: 15px;
-    color: aqua;
     justify-content: center;
     transition: background 0.2s linear;
 }
 .let:hover{
     background: rgba(199, 199, 199, 0.486);
-}
-
-
-
-.soc{
-    width: 100px;
-    height: 100px;
-    background: red;
 }
 
 .altSearch{
