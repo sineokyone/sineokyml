@@ -34,14 +34,21 @@
     margin-top: 10px;
     font-size: 12px;
     text-align: center;
-    background-color: rgba(0, 255, 255, 0.479);
+    vertical-align: center;
+    background-color: rgba(0, 0, 0, 0.281);
     transition: background 0.2s linear;
     border-radius: 35px 35px 35px 35px;
 }
 .altSearch:hover{
     background: rgba(58, 14, 255, 0.363);
 }
-
+.socialIcons{
+    display: block;
+    margin: 0 auto;
+    vertical-align: middle;
+    height: 40px;
+    margin-top: 12px;
+}
 
 @media only screen and (max-width: 1000px){
 
