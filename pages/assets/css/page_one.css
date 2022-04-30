@@ -18,7 +18,7 @@ background-size: cover;
 }
 .mainPage{
 position: absolute;
-display:inline; 
+display:flex; 
 top:300px
 left:0;
 right:0;
