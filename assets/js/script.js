@@ -64,3 +64,34 @@ function searchMemory(){
 	memoryAlert()
 
 }
+
+
+
+
+
+
+var ei1 = randomEI1();
+function randomEI1() {
+	let a
+	var chars = [a,"Найди всё что когда-то искал!", "Найдется всё, главное - не переживать", "Поисковики в твоем распоряжении", "И не надейся что я что то не найду:)","Искать в Яндрексе", "Ищи, не стесняйся)"];
+	let ass = chars[ Math.floor(Math.random() * chars.length)];
+	if (ass!=a){
+	let elem = document.getElementById("valueFromForm");
+	elem.placeholder = ass
+	}else{
+		function aiuy(){
+			let arr = ["Н","а","й","д","е","т","с","я"," ","в","с","ё","!"];
+			let elem = document.getElementById("valueFromForm");
+			for(let i=0; i < arr.length; i++) {
+				setTimeout(function(){
+				elem.placeholder += arr[i];
+				if(i >= arr.length){
+					i=0;
+					}
+				}, i*300);
+			}
+		}
+		aiuy()
+	}	
+ }
+ 
