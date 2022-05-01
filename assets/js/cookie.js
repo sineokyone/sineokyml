@@ -5,7 +5,7 @@ document.body.style.background = localStorage.getItem("background")
     localStorage.getItem("searchInfo")
     searchSystem = localStorage.getItem("searchInfo");
     if (localStorage.getItem("searchInfo")==null){
-        alert("Для начала выберите поисковик"
+       searchSystem = alert("Для начала выберите поисковик"
 location.reload()
     }else{searchSystem = localStorage.getItem("searchInfo");}
 }
