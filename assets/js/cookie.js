@@ -1,9 +1,10 @@
 window.onload = function () {
-	localStorage.getItem("background")
+    localStorage.getItem("background")
+document.body.style.background = localStorage.getItem("background")
     // получение и разграничение поисковика(первый поисковик при запуске)
     localStorage.getItem("searchInfo")
     searchSystem = localStorage.getItem("searchInfo");
     if (localStorage.getItem("searchInfo")==null){
         searchSystem = "https://yandex.ru/search/?text="
-    }else{document.body.style.background = localStorage.getItem("searchInfo");}
+    }else{searchSystem = localStorage.getItem("searchInfo");}
 }
