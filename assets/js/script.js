@@ -43,7 +43,14 @@ function app(){
 function searchSystemOne(){
     let selectedSearch = document.getElementById("searchChange").value
     searchSystem = selectedSearch;
-}
+		if  (selectedSearch=="none"){
+			localStorage.getItem("searchInfo")
+			searchSystem = localStorage.getItem("searchInfo");
+			document.getElementById('buttonSearchMemory').style.visibility= "hidden";
+		}else{
+			document.getElementById('buttonSearchMemory').style.visibility ="visible";
+		}
+	}
 function searchMemory(){
 	localStorage.setItem("searchInfo", searchSystem);
 	function memoryAlert(){

@@ -4,7 +4,7 @@
 		<!-- кодировка-->
 		<meta charset="UTF-8"/>
 		<!--Имя сайта-->
-		<title>Яндрекс поиск</title>
+		<title>Все поисковики в одном | Yandrex</title>
 		<!--css -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script type="text/javascript" src="assets/js/cookies.js"></script>
@@ -41,7 +41,7 @@
         <div class="container">
             <!-- контент -->
             <div class="header">
-                <b style="color:rgb(255, 0, 0);visibility: hidden;">Yandrex</b>
+                <b style="color:rgb(255, 0, 0);visibility: hidden;">Yandrex - Sineoky.tk</b>
                 <div class="big-logo">
                 </div>
             </div>
@@ -84,14 +84,14 @@
                 </div><div class="settingBodyMin">
                     <b style="color: antiquewhite;">Поисковая система</b>
                     <select class="searchChange" id="searchChange" onchange="searchSystemOne()">
-                        <option>По умолчанию</option>
+                        <option value="none">По умолчанию</option>
                         <option value="https://yandex.ru/search/?text=">Яндекс</option>
                         <option value='https://www.google.ru/search?q='>Google</option>
                         <option value='https://duckduckgo.com/?q='>DuckDuckGo</option>
                         <option value='https://search.yahoo.com/search?p='>Yahoo</option>
                         <option value='https://www.bing.com/search?q='>Bing</option>
                     </select>
-                    <button type="submit" class="searchMemory" onclick="searchMemory()">Сделать по умолчанию</button>
+                    <button id="buttonSearchMemory" type="submit" class="searchMemory" onclick="searchMemory()">Сделать по умолчанию</button>
                 </div>
             </div>
         </div>
