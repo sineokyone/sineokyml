@@ -88,5 +88,13 @@ function randomEI1() {
 		}
 		aiuy()
 	}	
- }
+}
  
+
+function titleArr(){
+	let titleChars = ["Найди всё что когда-то искал!", "Найдется всё, главное - не переживать", "Поисковики в твоем распоряжении", "И не надейся что я что то не найду:)","Искать в Яндрексе", "Ищи, не стесняйся)"];
+	let textT = titleChars[ Math.floor(Math.random() * titleChars.length)];
+	let titleText = document.title;
+	titleText = textT
+}
+titleArr();
