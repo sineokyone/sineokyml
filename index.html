@@ -79,16 +79,17 @@
                 <div class="settingBodyBig">
                     
                 </div><div class="settingBodyMin">
-                    <b style="color: antiquewhite;">Оформление</b>
+                    <p style="color: antiquewhite;"><br>Оформление<br>Фон</p>
                     <select class="backgroundChange" id="bgchoice" onchange="changeBG()">
                         <option>Выбрать фон</option>
+                        <option value="1" onclick="urlBack();">Картинка из Url</option>
                         <option value="rgb(224 224 224)">Светлая тема</option>
                         <option value="rgb(32 31 31)">Темная тема</option>
-                        <option value="#ff98aa">Девичья тема</option>
-                        <option value="1" onclick="urlBack();">Url</option>
+                        <option value="url(assets/img/themes/supra.jpg">Пацанская тема</option>
+                        <option value="url(assets/img/themes/girl.jpg">Девчачья тема</option>
                     </select>
                 </div><div class="settingBodyMin">
-                    <b style="color: antiquewhite;">Поисковая система</b>
+                    <p style="color: antiquewhite;"><br>Поисковая<br>система</p>
                     <select class="searchChange" id="searchChange" onchange="searchSystemOne()">
                         <option value="none">По умолчанию</option>
                         <option value="https://yandex.ru/search/?text=">Яндекс</option>

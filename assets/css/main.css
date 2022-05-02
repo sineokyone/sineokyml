@@ -1,6 +1,13 @@
+#body{
+    background-size: cover;
+    background-attachment: fixed !important;
+    -webkit-background-size: cover !important;
+}
 @media only screen and (max-width: 1450px){
     #body{
-        background-size: auto;
+        background-size: cover;
+        background-attachment: fixed !important;
+        -webkit-background-size: cover !important;
     }
 }
 
@@ -20,7 +27,7 @@
     width: 1134px;
     position: absolute;
     margin: 0 auto;
-    top: 323px;
+    top: 313px;
     left: 0;
     right: 0;
 }
@@ -37,7 +44,7 @@
     height: 60px;
     position: absolute;
     margin: 0 auto;
-    top: 323px;
+    top: 313px;
     left: 0;
     right: 0;
 }

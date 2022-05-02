@@ -14,6 +14,7 @@ function urlBg(){
   if(p==""){ //  -- || - ИЛИ 
   alert( "Неее братух, мне тут пустышки твои не нужны\nиди-ка погуляй" );
   }else{document.body.style.background = d;}
+  document.body.style.backgroundSize = "cover";
   localStorage.setItem("background", d);
         
 }
