@@ -85,18 +85,19 @@ function randomEI1() {
 	let elem = document.getElementById("valueFromForm");
 	elem.placeholder = ass
 	}else{
-		function aiuy(){
-			let arr = ["Н","а","й","д","е","т","с","я"," ","в","с","ё","!"];
-			let elem = document.getElementById("valueFromForm");
-			for(let i=0; i < arr.length; i++) {
-				setTimeout(function(){
-				elem.placeholder += arr[i];
-				if(i >= arr.length){
-					i=0;
-					}
-				}, i*300);
+		var arr = ["Н","а","й","д","е","т","с","я"," ","в","с","ё","!"];
+		let elem = document.getElementById("valueFromForm");
+		function Looper(){
+			for (let i = 0; i <= arr.length; i++){
+			setTimeout( function timer(){
+				elem.placeholder += arr[i]
+				if(i === arr.length){
+					elem.placeholder = ""
+					Looper();}}, i*300 );
 			}
 		}
-		aiuy()
-	}	
+		Looper();
+	}
 }
+
+
